@@ -1,1 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+/* General styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  color: #4e5150;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.container {
+  margin: 1em auto;
+  padding: 1em;
+  width: 90%;
+  text-align: center;
+}
+
+.user-profile {
+  width: 80%;
+  margin: 0 auto 2em;
+}
+
+.user-profile__info {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0.2em;
+}
+
+.user-profile__info__picture {
+  width: 125px;
+  border-radius: 10%;
+}
+
+.user-profile__info__name {
+  font-size: 0.875rem;
+  margin-bottom: 0.2em;
+}
+
+.user-profile__info__location {
+  margin-top: 0.4em;
+  font-size: 0.625rem;
+  color: #a9a9a9;
+}
+
+.user-profile__stats {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.user-profile__stats__unit {
+  padding: 0em 1.5em;
+  background-color: #e5e5e5;
+  margin: 0.5em 0.5em;
+  border-radius: 20%;
+}
+
+.user-profile__stats__unit__number {
+  font-size: 0.75rem;
+  padding: 0;
+  margin: 0.75em 0;
+}
+
+.user-profile__stats__unit__metric {
+  color: #bdbdbd;
+  font-size: 0.75rem;
+  padding: 0;
+  margin-bottom: 0.75em;
+}
+
+.image-gallery {
+  width: 90%;
+  /* overflow: hidden; */
+  display: grid;
+}
+
+.image-gallery__grid__img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
