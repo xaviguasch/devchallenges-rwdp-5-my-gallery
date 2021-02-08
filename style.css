@@ -17,44 +17,44 @@ body {
 }
 
 .container {
-  margin: 1em auto;
+  margin: 1.25em auto;
   padding: 0.2em;
-  width: 90%;
+  width: 95%;
   text-align: center;
 }
 
 .user-profile {
   width: 90%;
-  margin: 0 auto 1.3em;
+  margin: 0.5em auto 2.25em;
 }
 
 .user-profile__info {
   width: 60%;
-  margin: 0 auto 0.2em;
+  margin: 0 auto 0.75em;
   padding: 0em;
 }
 
 .user-profile__info__picture {
-  width: 65px;
+  width: 105px;
   border-radius: 10%;
 }
 
 .user-profile__info__name {
-  font-size: 0.6rem;
+  font-size: 0.9rem;
   margin-top: 0.1em;
   margin-bottom: 0.2em;
 }
 
 .user-profile__info__location {
-  margin-top: 0.4em;
-  margin-bottom: 0.1em;
-  font-size: 0.4rem;
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
+  font-size: 0.6rem;
   color: #a9a9a9;
 }
 
 .user-profile__stats {
   max-width: 80%;
-  margin: 0.2em auto;
+  margin: 0.1em auto;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -62,21 +62,21 @@ body {
 }
 
 .user-profile__stats__unit {
-  padding: 0.125em 0.6em;
+  padding: 0.4em 0.9em;
   background-color: #e5e5e5;
   margin: 0.2em 0.3em;
   border-radius: 20%;
 }
 
 .user-profile__stats__unit__number {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   padding: 0;
   margin: 0.2em 0 0em;
 }
 
 .user-profile__stats__unit__metric {
   color: #bdbdbd;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   padding: 0;
   margin-top: 0;
   margin-bottom: 0.4em;
@@ -84,7 +84,7 @@ body {
 
 .image-gallery {
   width: 100%;
-  margin: 1em auto;
+  margin: 2em auto 3em;
   /* overflow: hidden; */
 }
 
@@ -96,7 +96,7 @@ body {
     'five six four';
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
-  grid-gap: 0.5em;
+  grid-gap: 1em;
 }
 
 .image-gallery__grid__img {
@@ -134,5 +134,5 @@ body {
 
 .footer__text {
   color: #a9a9a9;
-  font-size: 0.5rem;
+  font-size: 0.75rem;
 }
