@@ -64,7 +64,7 @@ body {
 .user-profile__stats__unit {
   padding: 0.4em 0.9em;
   background-color: #e5e5e5;
-  margin: 0.2em 0.3em;
+  margin: 0.2em 0.4em;
   border-radius: 20%;
 }
 
@@ -84,8 +84,7 @@ body {
 
 .image-gallery {
   width: 100%;
-  margin: 2em auto 3em;
-  /* overflow: hidden; */
+  margin: 2em auto;
 }
 
 .image-gallery__grid {
@@ -96,7 +95,7 @@ body {
     'five six four';
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
-  grid-gap: 1em;
+  grid-gap: 0.5em 1em;
 }
 
 .image-gallery__grid__img {
@@ -134,5 +133,5 @@ body {
 
 .footer__text {
   color: #a9a9a9;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
