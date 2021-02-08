@@ -135,3 +135,38 @@ body {
   color: #a9a9a9;
   font-size: 0.8rem;
 }
+
+@media (min-width: 530px) {
+  .container {
+    padding: 0.3em;
+    width: 90%;
+  }
+
+  .user-profile__info__picture {
+    width: 150px;
+  }
+
+  .user-profile__info__name {
+    font-size: 1.2rem;
+  }
+
+  .user-profile__info__location {
+    font-size: 0.8rem;
+  }
+
+  .user-profile__stats__unit__number {
+    font-size: 1rem;
+  }
+
+  .user-profile__stats__unit__metric {
+    font-size: 0.9rem;
+  }
+
+  .image-gallery {
+    margin: 3em auto;
+  }
+
+  .footer__text {
+    font-size: 1rem;
+  }
+}
